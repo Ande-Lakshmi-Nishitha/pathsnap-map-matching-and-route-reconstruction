@@ -1,0 +1,36 @@
+training rows 352840 from 61734 points
+== lightgbm
+  lightgbm fold 0: f1=0.9299 top1=0.8840 (6.0s)
+  lightgbm fold 1: f1=0.9355 top1=0.8853 (5.8s)
+  lightgbm fold 2: f1=0.9083 top1=0.8525 (5.8s)
+  lightgbm fold 3: f1=0.9496 top1=0.9238 (5.7s)
+  lightgbm fold 4: f1=0.9161 top1=0.8721 (6.1s)
+  student-test top1=0.8963 f1=0.9344 ll=0.0888 cont=0.813
+== random_forest
+  random_forest fold 0: f1=0.9305 top1=0.8819 (68.3s)
+  random_forest fold 1: f1=0.9351 top1=0.8858 (64.9s)
+  random_forest fold 2: f1=0.9104 top1=0.8531 (63.3s)
+  random_forest fold 3: f1=0.9451 top1=0.9202 (77.5s)
+  random_forest fold 4: f1=0.9111 top1=0.8681 (63.6s)
+  student-test top1=0.8877 f1=0.9302 ll=0.0939 cont=0.803
+== extra_trees
+  extra_trees fold 0: f1=0.9276 top1=0.8793 (16.2s)
+  extra_trees fold 1: f1=0.9307 top1=0.8837 (16.4s)
+  extra_trees fold 2: f1=0.9052 top1=0.8485 (15.4s)
+  extra_trees fold 3: f1=0.9378 top1=0.9159 (16.9s)
+  extra_trees fold 4: f1=0.9078 top1=0.8673 (16.9s)
+  student-test top1=0.8768 f1=0.9200 ll=0.1063 cont=0.803
+== knn
+  knn fold 0: f1=0.9183 top1=0.8734 (0.0s)
+  knn fold 1: f1=0.9183 top1=0.8713 (0.0s)
+  knn fold 2: f1=0.8978 top1=0.8414 (0.0s)
+  knn fold 3: f1=0.9310 top1=0.9075 (0.0s)
+  knn fold 4: f1=0.8985 top1=0.8520 (0.0s)
+  student-test top1=0.8666 f1=0.9105 ll=0.1572 cont=0.793
+== mlp
+  mlp fold 0: f1=0.9264 top1=0.8764 (8.3s)
+  mlp fold 1: f1=0.9310 top1=0.8806 (36.9s)
+  mlp fold 2: f1=0.8863 top1=0.8317 (40.8s)
+  mlp fold 3: f1=0.9423 top1=0.9207 (12.3s)
+  mlp fold 4: f1=0.9038 top1=0.8604 (57.8s)
+  student-test top1=0.8827 f1=0.9253 ll=0.1078 cont=0.817
