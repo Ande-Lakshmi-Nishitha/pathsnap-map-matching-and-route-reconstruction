@@ -1,0 +1,8 @@
+data/
+results/data/
+results/hmm/train_oof_prob.npy
+logs/
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
