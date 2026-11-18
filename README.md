@@ -96,6 +96,10 @@ Full tables: `results/model_comparison.csv`, `results/hpo/tuned_vs_untuned.json`
 - **Route continuity**: share of consecutive (distinct) predicted arcs that are directly connected in the road graph.
 - **Route precision / recall / F1**: length-weighted overlap between predicted route arcs and reference route arcs.
 
-## AI-assistance disclosure
 
-Parts of this codebase were developed with the help of an AI assistant (Claude). All experiments were run by the team and every number in the report is produced by the scripts in this repository.
+## Model training & optimisation (Anarghyaa Kashyap, PES1UG24AM039)
+- scripts/train_models.py: 5-fold GroupKFold CV + student-test evaluation for all models
+- scripts/bayes_opt.py: Optuna TPE search (30 trials) on LightGBM -> models/final_model.joblib
+- api/main.py: FastAPI backend (GET /health, GET /trips, POST /predict)
+- Random Forest and Extra Trees weights are not committed (over 25 MB); regenerate with:
+  python scripts/train_models.py --models random_forest extra_trees
