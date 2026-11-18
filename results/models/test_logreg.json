@@ -1,0 +1,29 @@
+{
+  "accuracy": 0.9449677782864387,
+  "precision_macro": 0.902647962599106,
+  "recall_macro": 0.89982977767691,
+  "f1_macro": 0.901230425286291,
+  "log_loss": 0.14752718806266785,
+  "confusion": [
+    [
+      91462,
+      3042
+    ],
+    [
+      3209,
+      15875
+    ]
+  ],
+  "top1_accuracy": 0.8626456906914755,
+  "route_continuity": 0.7645311864511826,
+  "candidate_miss_rate": 0.002561020226833244,
+  "fit_seconds": 0.5763013362884521,
+  "inference_ms_per_1000_obs": 0.28785683665743456,
+  "model": "logreg",
+  "family": "Linear / probabilistic",
+  "config": "StandardScaler + LogisticRegression(C=1.0, lbfgs, max_iter=2000)",
+  "cv_f1_macro_mean": 0.9015329066365642,
+  "cv_f1_macro_std": 0.014460502185126572,
+  "cv_top1_mean": 0.8705207200049048,
+  "cv_log_loss_mean": 0.15470442324876785
+}

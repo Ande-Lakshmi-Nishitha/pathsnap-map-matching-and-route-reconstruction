@@ -1,0 +1,29 @@
+{
+  "accuracy": 0.8983959573194351,
+  "precision_macro": 0.8093835602130062,
+  "recall_macro": 0.9014489386348854,
+  "f1_macro": 0.8430170012520108,
+  "log_loss": 0.4800783693790436,
+  "confusion": [
+    [
+      84756,
+      9748
+    ],
+    [
+      1793,
+      17291
+    ]
+  ],
+  "top1_accuracy": 0.8534991898813569,
+  "route_continuity": 0.7910266630634964,
+  "candidate_miss_rate": 0.002561020226833244,
+  "fit_seconds": 0.0628058910369873,
+  "inference_ms_per_1000_obs": 0.7536938892276899,
+  "model": "gaussian_nb",
+  "family": "Linear / probabilistic",
+  "config": "GaussianNB(var_smoothing=1e-9)",
+  "cv_f1_macro_mean": 0.8462742930712797,
+  "cv_f1_macro_std": 0.015447943188552556,
+  "cv_top1_mean": 0.859466323795284,
+  "cv_log_loss_mean": 0.5442891001701355
+}
