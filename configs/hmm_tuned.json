@@ -1,0 +1,9 @@
+{
+  "emission_weight": 0.5,
+  "beta": 3.0,
+  "backward_tolerance": 15.0,
+  "max_route_factor": 2.0,
+  "route_slack": 250.0,
+  "gap_seconds": 30.0,
+  "unreachable_penalty": 30.0
+}

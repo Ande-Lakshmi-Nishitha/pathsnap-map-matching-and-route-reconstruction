@@ -1,0 +1,19 @@
+seed: 42
+labels:
+  max_dist: 50.0
+candidates:
+  radius: 50.0
+  k: 8
+  spacing: 20.0
+training:
+  cv_folds: 5
+  point_stride: 3
+  knn_max_rows: 120000
+hmm:
+  emission_weight: 1.0
+  beta: 10.0
+  backward_tolerance: 15.0
+  max_route_factor: 2.0
+  route_slack: 250.0
+  gap_seconds: 30.0
+  unreachable_penalty: 30.0

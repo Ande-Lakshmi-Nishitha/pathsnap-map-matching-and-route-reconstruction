@@ -1,0 +1,29 @@
+{
+  "accuracy": 0.9638518153326056,
+  "precision_macro": 0.9410966358840558,
+  "recall_macro": 0.9279894817536953,
+  "f1_macro": 0.9343790595042197,
+  "log_loss": 0.08883960864128691,
+  "confusion": [
+    [
+      92803,
+      1701
+    ],
+    [
+      2405,
+      16679
+    ]
+  ],
+  "top1_accuracy": 0.896252547953797,
+  "route_continuity": 0.8134083818273646,
+  "candidate_miss_rate": 0.002561020226833244,
+  "fit_seconds": 12.162944793701172,
+  "inference_ms_per_1000_obs": 62.67605096661721,
+  "model": "lightgbm",
+  "family": "Boosting",
+  "config": "LightGBM(400 trees, lr=0.05, num_leaves=63, subsample=0.8, colsample=0.8)",
+  "cv_f1_macro_mean": 0.9278816804922793,
+  "cv_f1_macro_std": 0.016240372291866947,
+  "cv_top1_mean": 0.8835508373563521,
+  "cv_log_loss_mean": 0.10304559119401897
+}
