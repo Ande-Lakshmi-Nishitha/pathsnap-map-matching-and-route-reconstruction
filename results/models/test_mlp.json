@@ -1,0 +1,29 @@
+{
+  "accuracy": 0.9589745395640384,
+  "precision_macro": 0.9334672130825956,
+  "recall_macro": 0.9175519944411465,
+  "f1_macro": 0.9252623456188735,
+  "log_loss": 0.10782270133495331,
+  "confusion": [
+    [
+      92608,
+      1896
+    ],
+    [
+      2764,
+      16320
+    ]
+  ],
+  "top1_accuracy": 0.8827157267548215,
+  "route_continuity": 0.8171838044196228,
+  "candidate_miss_rate": 0.002561020226833244,
+  "fit_seconds": 41.63824248313904,
+  "inference_ms_per_1000_obs": 1.517081310455386,
+  "model": "mlp",
+  "family": "Neural network",
+  "config": "StandardScaler + MLP(64,32), ReLU, Adam lr=1e-3, early stopping",
+  "cv_f1_macro_mean": 0.9179623477171894,
+  "cv_f1_macro_std": 0.022534492585148103,
+  "cv_top1_mean": 0.8739325390688457,
+  "cv_log_loss_mean": 0.12110857218503952
+}
