@@ -1,0 +1,29 @@
+{
+  "accuracy": 0.9507430362362221,
+  "precision_macro": 0.9172434775439544,
+  "recall_macro": 0.9041159881304098,
+  "f1_macro": 0.9105036562438975,
+  "log_loss": 0.15721575603209148,
+  "confusion": [
+    [
+      92079,
+      2425
+    ],
+    [
+      3170,
+      15914
+    ]
+  ],
+  "top1_accuracy": 0.8665656196100977,
+  "route_continuity": 0.7931648786922002,
+  "candidate_miss_rate": 0.002561020226833244,
+  "fit_seconds": 0.03883624076843262,
+  "inference_ms_per_1000_obs": 1262.7024864602936,
+  "model": "knn",
+  "family": "Instance-based",
+  "config": "StandardScaler + KNN(k=25, distance-weighted), fit on <=120k rows",
+  "cv_f1_macro_mean": 0.9127851959024088,
+  "cv_f1_macro_std": 0.014316792874147615,
+  "cv_top1_mean": 0.8691238460614488,
+  "cv_log_loss_mean": 0.1832100539742886
+}
