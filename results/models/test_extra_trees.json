@@ -1,0 +1,29 @@
+{
+  "accuracy": 0.9568352290734937,
+  "precision_macro": 0.9363980998248564,
+  "recall_macro": 0.9054562902016211,
+  "f1_macro": 0.9199946784323074,
+  "log_loss": 0.10634157624918279,
+  "confusion": [
+    [
+      92882,
+      1622
+    ],
+    [
+      3281,
+      15803
+    ]
+  ],
+  "top1_accuracy": 0.8768097005174306,
+  "route_continuity": 0.803267921053435,
+  "candidate_miss_rate": 0.002561020226833244,
+  "fit_seconds": 21.309879302978516,
+  "inference_ms_per_1000_obs": 57.29044155686285,
+  "model": "extra_trees",
+  "family": "Ensemble (randomised trees)",
+  "config": "ExtraTrees(200 trees, max_depth=18, min_samples_leaf=5)",
+  "cv_f1_macro_mean": 0.9218411863146423,
+  "cv_f1_macro_std": 0.014504451291427448,
+  "cv_top1_mean": 0.8789440910741435,
+  "cv_log_loss_mean": 0.11420778767175743
+}
