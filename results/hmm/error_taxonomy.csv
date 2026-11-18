@@ -1,0 +1,6 @@
+kind,classifier_hmm,classifier_only,classifier_hmm_count,classifier_only_count
+correct,0.9445,0.8956,18071,17135
+neighbouring arc on true route (junction boundary),0.0117,0.0091,223,174
+other road (parallel / off route),0.0043,0.0192,83,368
+reverse direction of true arc,0.0272,0.0467,521,894
+side road sharing a node,0.0123,0.0294,235,562
