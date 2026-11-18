@@ -1,0 +1,50 @@
+OOF probabilities for decoder tuning
+{'beta': 3.0, 'emission_weight': 0.5, 'unreachable_penalty': 15.0, 'top1': np.float64(0.9412652724381554), 'route_f1': np.float64(0.9599451247819138)}
+{'beta': 3.0, 'emission_weight': 0.5, 'unreachable_penalty': 30.0, 'top1': np.float64(0.9419697671141886), 'route_f1': np.float64(0.9624926426542378)}
+{'beta': 3.0, 'emission_weight': 1.0, 'unreachable_penalty': 15.0, 'top1': np.float64(0.9398160262474587), 'route_f1': np.float64(0.9594651391849467)}
+{'beta': 3.0, 'emission_weight': 1.0, 'unreachable_penalty': 30.0, 'top1': np.float64(0.9414464282119925), 'route_f1': np.float64(0.9623626937983223)}
+{'beta': 3.0, 'emission_weight': 2.0, 'unreachable_penalty': 15.0, 'top1': np.float64(0.9364747086411304), 'route_f1': np.float64(0.9507063238400545)}
+{'beta': 3.0, 'emission_weight': 2.0, 'unreachable_penalty': 30.0, 'top1': np.float64(0.9394738431190999), 'route_f1': np.float64(0.959041210472032)}
+{'beta': 5.0, 'emission_weight': 0.5, 'unreachable_penalty': 15.0, 'top1': np.float64(0.9404601356655462), 'route_f1': np.float64(0.9613450078012385)}
+{'beta': 5.0, 'emission_weight': 0.5, 'unreachable_penalty': 30.0, 'top1': np.float64(0.9400173104406111), 'route_f1': np.float64(0.9635884549573689)}
+{'beta': 5.0, 'emission_weight': 1.0, 'unreachable_penalty': 15.0, 'top1': np.float64(0.9392725589259475), 'route_f1': np.float64(0.9591345064293793)}
+{'beta': 5.0, 'emission_weight': 1.0, 'unreachable_penalty': 30.0, 'top1': np.float64(0.9408627040518508), 'route_f1': np.float64(0.9618057141983608)}
+{'beta': 5.0, 'emission_weight': 2.0, 'unreachable_penalty': 15.0, 'top1': np.float64(0.9366558644149675), 'route_f1': np.float64(0.9508851319690345)}
+{'beta': 5.0, 'emission_weight': 2.0, 'unreachable_penalty': 30.0, 'top1': np.float64(0.9386284495078602), 'route_f1': np.float64(0.9572098870730086)}
+{'beta': 10.0, 'emission_weight': 0.5, 'unreachable_penalty': 15.0, 'top1': np.float64(0.9408627040518508), 'route_f1': np.float64(0.9618057141983608)}
+{'beta': 10.0, 'emission_weight': 0.5, 'unreachable_penalty': 30.0, 'top1': np.float64(0.9404198788269157), 'route_f1': np.float64(0.9637860122320627)}
+{'beta': 10.0, 'emission_weight': 1.0, 'unreachable_penalty': 15.0, 'top1': np.float64(0.9386284495078602), 'route_f1': np.float64(0.9572098870730086)}
+{'beta': 10.0, 'emission_weight': 1.0, 'unreachable_penalty': 30.0, 'top1': np.float64(0.9398361546667741), 'route_f1': np.float64(0.9597266206895669)}
+{'beta': 10.0, 'emission_weight': 2.0, 'unreachable_penalty': 15.0, 'top1': np.float64(0.933656729936998), 'route_f1': np.float64(0.946353233055262)}
+{'beta': 10.0, 'emission_weight': 2.0, 'unreachable_penalty': 30.0, 'top1': np.float64(0.9358104708037278), 'route_f1': np.float64(0.9519333916829643)}
+{'beta': 20.0, 'emission_weight': 0.5, 'unreachable_penalty': 15.0, 'top1': np.float64(0.9398361546667741), 'route_f1': np.float64(0.9597266206895669)}
+{'beta': 20.0, 'emission_weight': 0.5, 'unreachable_penalty': 30.0, 'top1': np.float64(0.9387089631851211), 'route_f1': np.float64(0.9608943923321667)}
+{'beta': 20.0, 'emission_weight': 1.0, 'unreachable_penalty': 15.0, 'top1': np.float64(0.9358104708037278), 'route_f1': np.float64(0.9519333916829643)}
+{'beta': 20.0, 'emission_weight': 1.0, 'unreachable_penalty': 30.0, 'top1': np.float64(0.9365753507377066), 'route_f1': np.float64(0.9538716665810668)}
+{'beta': 20.0, 'emission_weight': 2.0, 'unreachable_penalty': 15.0, 'top1': np.float64(0.9287655240433969), 'route_f1': np.float64(0.9401534148293329)}
+{'beta': 20.0, 'emission_weight': 2.0, 'unreachable_penalty': 30.0, 'top1': np.float64(0.9302348986534087), 'route_f1': np.float64(0.9455374992388359)}
+{'beta': 40.0, 'emission_weight': 0.5, 'unreachable_penalty': 15.0, 'top1': np.float64(0.9365753507377066), 'route_f1': np.float64(0.9538716665810668)}
+{'beta': 40.0, 'emission_weight': 0.5, 'unreachable_penalty': 30.0, 'top1': np.float64(0.9356091866105755), 'route_f1': np.float64(0.9543779483120138)}
+{'beta': 40.0, 'emission_weight': 1.0, 'unreachable_penalty': 15.0, 'top1': np.float64(0.9302348986534087), 'route_f1': np.float64(0.9455374992388359)}
+{'beta': 40.0, 'emission_weight': 1.0, 'unreachable_penalty': 30.0, 'top1': np.float64(0.9304764396851916), 'route_f1': np.float64(0.9469132906885547)}
+{'beta': 40.0, 'emission_weight': 2.0, 'unreachable_penalty': 15.0, 'top1': np.float64(0.9255047201143294), 'route_f1': np.float64(0.9342617406831452)}
+{'beta': 40.0, 'emission_weight': 2.0, 'unreachable_penalty': 30.0, 'top1': np.float64(0.9269942231436565), 'route_f1': np.float64(0.9397455980212711)}
+             model             mode  n_valid  continuity  stitched_continuity  route_precision  route_recall  route_f1  decode_seconds      top1
+0    decision_tree   classifier_hmm    19133    0.907619             0.998824         0.950712      0.997161  0.972519        1.128918  0.927298
+1    decision_tree  classifier_only    19133    0.779928             0.986390         0.725729      0.997342  0.834323        0.000000  0.871479
+2      extra_trees   classifier_hmm    19133    0.905584             0.998859         0.951819      0.997073  0.973105        1.080286  0.937699
+3      extra_trees  classifier_only    19133    0.803268             0.982555         0.721799      0.997204  0.831585        0.000000  0.876810
+4      gaussian_nb   classifier_hmm    19133    0.907440             0.998746         0.941285      0.995777  0.966730        1.187401  0.916898
+5      gaussian_nb  classifier_only    19133    0.791027             0.985364         0.692060      0.995948  0.808930        0.000000  0.853499
+6              knn   classifier_hmm    19133    0.902194             0.998824         0.945698      0.996281  0.969538        1.110290  0.916375
+7              knn  classifier_only    19133    0.793165             0.989071         0.724641      0.995809  0.833081        0.000000  0.866566
+8         lightgbm   classifier_hmm    19133    0.907974             0.998858         0.952893      0.996982  0.973619        1.135600  0.943762
+9         lightgbm  classifier_only    19133    0.813408             0.987637         0.748430      0.996496  0.849820        0.000000  0.896253
+10  lightgbm_tuned   classifier_hmm    19133    0.905754             0.998858         0.952552      0.997073  0.973481        1.117280  0.944494
+11  lightgbm_tuned  classifier_only    19133    0.817601             0.989930         0.751030      0.996923  0.851660        0.000000  0.895573
+12          logreg   classifier_hmm    19133    0.908228             0.998863         0.949573      0.997073  0.971951        2.105563  0.907281
+13          logreg  classifier_only    19133    0.764531             0.984236         0.701860      0.996869  0.816138        0.000000  0.862646
+14             mlp   classifier_hmm    19133    0.906974             0.998843         0.951738      0.997257  0.973180        1.467332  0.935504
+15             mlp  classifier_only    19133    0.817184             0.989259         0.771124      0.996166  0.864524        0.000000  0.882716
+16   random_forest   classifier_hmm    19133    0.903465             0.998858         0.952526      0.997073  0.973468        1.073880  0.942926
+17   random_forest  classifier_only    19133    0.803495             0.987088         0.739891      0.997512  0.844466        0.000000  0.887733
